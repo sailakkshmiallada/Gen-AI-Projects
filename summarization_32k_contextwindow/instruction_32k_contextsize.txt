@@ -1,0 +1,9 @@
+transformers==4.31.0
+sentencepiece
+ninja
+flash-attn --no-build-isolation
+git+https://github.com/HazyResearch/flash-attention.git#subdirectory=csrc/rotary
+
+# Note: If any error install torch
+# pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
+
